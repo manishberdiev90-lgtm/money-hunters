@@ -1,0 +1,9 @@
+{
+  "sources": [
+    {"type": "github_bounties", "name": "github-bounties", "division": "A", "min_interval_min": 15, "enabled": true},
+    {"type": "remotive", "name": "remotive", "division": "B", "categories": ["writing", "qa", "software-dev"], "min_interval_min": 360, "enabled": true},
+    {"type": "remoteok", "name": "remoteok", "division": "B", "min_interval_min": 180, "enabled": true},
+    {"type": "rss", "name": "weworkremotely", "division": "B", "url": "https://weworkremotely.com/remote-jobs.rss", "min_interval_min": 60, "enabled": true},
+    {"type": "rss", "name": "reddit-forhire", "division": "B", "url": "https://www.reddit.com/r/forhire/new/.rss", "title_contains": "[hiring]", "only_gigs": false, "min_interval_min": 60, "enabled": true}
+  ]
+}
